@@ -1,3 +1,19 @@
+<?php
+require_once __DIR__ . "/classes/user.php";
+require_once __DIR__ . "/classes/premium.php";
+// include __DIR__ . "/classes/products.php";
+
+$users = [
+    new User('Stefano', 'Nesi', 32, 'Moonatic89', 'nesi_stefano@gmail.com', 'pollo123'),
+    new Premium('Pamela', 'Bruzzo', 27, 'Naminiel', 'kirisakipam@hotmail.com', 'pesce321', 50),
+];
+
+// $user[1]->discount = 5;
+
+var_dump($users);
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +25,7 @@
 </head>
 
 <body>
-
+    HELLO
 </body>
 
 </html>
